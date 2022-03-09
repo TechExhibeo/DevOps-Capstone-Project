@@ -1,0 +1,6 @@
+# Listing the application deployment related files so they can be easily used with the help of Kustomize
+# If Kustomize is not installed the instalaltion script can be used with below command
+# curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
+resources:
+  - upgloadme-deployment.yaml
+  - ingress.yaml
